@@ -12,27 +12,55 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+body{
+  background-color:#61dafb;
+}
 
 .App-header {
-  background-color: #282c34;
+  background-color: #61dafb;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 30%;
+  width: 40%;
 }
-
-.App-link {
-  color: #61dafb;
+.todoInput{
+  margin-bottom: 6%;
+  width: 95%;
+  padding: 10px;
+  margin-top: 20%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.items{
+  width: 95%;
+  color:white;
+  margin-bottom: 30px;
+}
+.itemList{
+  background-color: rgb(29, 29, 89);
+  display: flex;
+  width:100%;
+  padding:10px;
+  margin-bottom: 10px;
+}
+.itemName{
+  width:95%;
+}
+.fa-trash-alt{
+  text-align: right;
+  right:0;
+}
+.deleteAll{
+margin: 10px;
+text-align: center;
+}
+.btn{
+  padding: 10px;
+  background-color: rgb(29, 29, 89);
+  color:white;
+  margin-left:20px;
+}
+.submitTodo{
+  padding:10px;
+  background-color: #0da3cc;
+  color:white;
 }
